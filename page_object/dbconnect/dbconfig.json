@@ -1,0 +1,18 @@
+{
+    "mysql":{
+        "autotest":{
+            "HOST": "127.0.0.1",
+            "USER": "root",
+            "PASS": "123456",
+            "DB_NAME": "autotest"
+        }
+    },
+    "oracle":{
+        "cbss": {
+            "HOST": "10.88.88.888",
+            "USER": "sb",
+            "PASS": "sb",
+            "SERVICE_NAME": "CBSS"
+        }
+    }
+}

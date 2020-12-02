@@ -1,0 +1,80 @@
+{
+  "1c02a7ba0aa8b57fb58564106c315829" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "484d2b0851336548",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False == True\n +  where False = <bound method BasePage.isElementPresent of <page_object.pages.BasePage.BasePage object at 0x00000185FDE78CC0>>(('xpath', \"//*[contains(text(),'PyCharm开发工具')]\"))\n +    where <bound method BasePage.isElementPresent of <page_object.pages.BasePage.BasePage object at 0x00000185FDE78CC0>> = <page_object.pages.BasePage.BasePage object at 0x00000185FDE78CC0>.isElementPresent",
+      "time" : {
+        "start" : 1605168919651,
+        "stop" : 1605168935839,
+        "duration" : 16188
+      }
+    } ]
+  },
+  "f3d70fb877bbb348fd4e17c8c1998a14" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a1052d8307573aa9",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert False == True\n +  where False = <bound method BasePage.isElementPresent of <page_object.pages.BasePage.BasePage object at 0x00000185FDEA4630>>(('xpath', \"//*[contains(text(),'MeterSphere - 开源自动化测试平台')]\"))\n +    where <bound method BasePage.isElementPresent of <page_object.pages.BasePage.BasePage object at 0x00000185FDEA4630>> = <page_object.pages.BasePage.BasePage object at 0x00000185FDEA4630>.isElementPresent",
+      "time" : {
+        "start" : 1605168890203,
+        "stop" : 1605168911454,
+        "duration" : 21251
+      }
+    } ]
+  },
+  "e02da073d9153ace860fb5471a55e981" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b86edec5d5620ac3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605168904172,
+        "stop" : 1605168911550,
+        "duration" : 7378
+      }
+    } ]
+  },
+  "d012149232ec03fca675e25474a5aa95" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b77311f7056c6614",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605168890176,
+        "stop" : 1605168898673,
+        "duration" : 8497
+      }
+    } ]
+  }
+}

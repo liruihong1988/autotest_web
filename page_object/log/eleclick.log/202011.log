@@ -1,0 +1,527 @@
+INFO	2020-11-12 14:06:00,702	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 14:06:00,702	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1111.0013
+INFO	2020-11-12 14:06:00,874	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1111.0013', ['test_search_001'], ['test_searchcase_001_003'], ['test_searchcase_001_003'], ['1'], 1605161160)
+INFO	2020-11-12 14:06:00,992	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['3.6532325744628906'], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161160)
+INFO	2020-11-12 14:06:01,093	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('null', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161160)
+INFO	2020-11-12 14:06:01,266	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('通过', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161160)
+INFO	2020-11-12 14:06:01,392	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:Lime', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161160)
+INFO	2020-11-12 14:08:19,955	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 14:08:19,955	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1111.0013
+INFO	2020-11-12 14:08:20,840	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1111.0013', ['test_search_001'], ['test_searchcase_001_003'], ['test_searchcase_001_003'], ['0'], 1605161298)
+INFO	2020-11-12 14:08:21,322	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['2.6898443698883057'], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161298)
+INFO	2020-11-12 14:08:21,853	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s([' \'SearchPage\' object has no attribute \'ifarmetest\'")'], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161298)
+INFO	2020-11-12 14:08:22,431	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('不通过', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161298)
+INFO	2020-11-12 14:08:22,746	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:red', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161298)
+INFO	2020-11-12 14:09:31,426	[BasePage.py:38]	('id', 'userNameInput')出现,等待时间0.03s
+INFO	2020-11-12 14:09:31,427	[BasePage.py:77]	在:('id', 'userNameInput')中输入:0010437
+INFO	2020-11-12 14:09:31,574	[BasePage.py:38]	('id', 'passwordInput')出现,等待时间0.03s
+INFO	2020-11-12 14:09:31,574	[BasePage.py:77]	在:('id', 'passwordInput')中输入:passwordInput
+INFO	2020-11-12 14:09:31,725	[BasePage.py:38]	('id', 'submitButton')出现,等待时间0.03s
+INFO	2020-11-12 14:09:31,726	[BasePage.py:49]	点击:('id', 'submitButton')
+INFO	2020-11-12 14:09:31,726	[BasePage.py:113]	滑动到元素('id', 'submitButton')
+INFO	2020-11-12 14:09:38,838	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 14:09:38,838	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1111.0013
+INFO	2020-11-12 14:09:38,984	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1111.0013', ['test_search_001'], ['test_searchcase_001_003'], ['test_searchcase_001_003'], ['1'], 1605161378)
+INFO	2020-11-12 14:09:39,390	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['10.01596474647522'], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161378)
+INFO	2020-11-12 14:09:39,883	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('null', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161378)
+INFO	2020-11-12 14:09:40,027	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('通过', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161378)
+INFO	2020-11-12 14:09:40,086	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:Lime', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161378)
+INFO	2020-11-12 14:10:14,541	[BasePage.py:38]	('id', 'userNameInput')出现,等待时间0.03s
+INFO	2020-11-12 14:10:14,541	[BasePage.py:77]	在:('id', 'userNameInput')中输入:0010437
+INFO	2020-11-12 14:10:14,680	[BasePage.py:38]	('id', 'passwordInput')出现,等待时间0.02s
+INFO	2020-11-12 14:10:14,680	[BasePage.py:77]	在:('id', 'passwordInput')中输入:wxj@2016
+INFO	2020-11-12 14:10:14,798	[BasePage.py:38]	('id', 'submitButton')出现,等待时间0.02s
+INFO	2020-11-12 14:10:14,798	[BasePage.py:49]	点击:('id', 'submitButton')
+INFO	2020-11-12 14:10:14,798	[BasePage.py:113]	滑动到元素('id', 'submitButton')
+INFO	2020-11-12 14:10:21,898	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 14:10:21,898	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1111.0013
+INFO	2020-11-12 14:10:21,967	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1111.0013', ['test_search_001'], ['test_searchcase_001_003'], ['test_searchcase_001_003'], ['1'], 1605161421)
+INFO	2020-11-12 14:10:22,026	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['10.06110692024231'], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161421)
+INFO	2020-11-12 14:10:22,117	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('null', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161421)
+INFO	2020-11-12 14:10:22,348	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('通过', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161421)
+INFO	2020-11-12 14:10:22,448	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:Lime', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161421)
+INFO	2020-11-12 14:11:12,633	[BasePage.py:38]	('id', 'userNameInput')出现,等待时间0.02s
+INFO	2020-11-12 14:11:12,633	[BasePage.py:77]	在:('id', 'userNameInput')中输入:0010437
+INFO	2020-11-12 14:11:12,752	[BasePage.py:38]	('id', 'passwordInput')出现,等待时间0.03s
+INFO	2020-11-12 14:11:12,753	[BasePage.py:77]	在:('id', 'passwordInput')中输入:wxj@2016
+INFO	2020-11-12 14:11:12,866	[BasePage.py:38]	('id', 'submitButton')出现,等待时间0.02s
+INFO	2020-11-12 14:11:12,866	[BasePage.py:49]	点击:('id', 'submitButton')
+INFO	2020-11-12 14:11:12,866	[BasePage.py:113]	滑动到元素('id', 'submitButton')
+ERROR	2020-11-12 14:11:46,023	[BasePage.py:40]	未能等待元素出现。
+INFO	2020-11-12 14:11:46,023	[BasePage.py:49]	点击:('id', 'pickfiles__rnd_101796254395346')
+INFO	2020-11-12 14:11:46,023	[BasePage.py:113]	滑动到元素('id', 'pickfiles__rnd_101796254395346')
+ERROR	2020-11-12 14:11:56,065	[BasePage.py:118]	滑动到元素('id', 'pickfiles__rnd_101796254395346')失败
+ERROR	2020-11-12 14:12:00,035	[BasePage.py:53]	('id', 'pickfiles__rnd_101796254395346')点击失败
+INFO	2020-11-12 14:12:00,093	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 14:12:00,094	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1111.0013
+INFO	2020-11-12 14:12:00,205	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1111.0013', ['test_search_001'], ['test_searchcase_001_003'], ['test_searchcase_001_003'], ['1'], 1605161520)
+INFO	2020-11-12 14:12:00,320	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['50.04319620132446'], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161520)
+INFO	2020-11-12 14:12:00,795	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('null', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161520)
+INFO	2020-11-12 14:12:01,020	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('通过', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161520)
+INFO	2020-11-12 14:12:01,238	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:Lime', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161520)
+INFO	2020-11-12 14:15:26,421	[BasePage.py:38]	('id', 'userNameInput')出现,等待时间0.03s
+INFO	2020-11-12 14:15:26,421	[BasePage.py:77]	在:('id', 'userNameInput')中输入:0010437
+INFO	2020-11-12 14:15:26,544	[BasePage.py:38]	('id', 'passwordInput')出现,等待时间0.03s
+INFO	2020-11-12 14:15:26,544	[BasePage.py:77]	在:('id', 'passwordInput')中输入:wxj@2016
+INFO	2020-11-12 14:15:26,663	[BasePage.py:38]	('id', 'submitButton')出现,等待时间0.02s
+INFO	2020-11-12 14:15:26,663	[BasePage.py:49]	点击:('id', 'submitButton')
+INFO	2020-11-12 14:15:26,663	[BasePage.py:113]	滑动到元素('id', 'submitButton')
+INFO	2020-11-12 14:15:59,381	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 14:15:59,381	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1111.0013
+INFO	2020-11-12 14:15:59,481	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1111.0013', ['test_search_001'], ['test_searchcase_001_003'], ['test_searchcase_001_003'], ['0'], 1605161759)
+INFO	2020-11-12 14:15:59,845	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['35.07621359825134'], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161759)
+INFO	2020-11-12 14:15:59,997	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s([" 'selenium.common.exceptions.NoSuchFrameException: Message: _rnd_101796254395346')"], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161759)
+INFO	2020-11-12 14:16:00,199	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('不通过', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161759)
+INFO	2020-11-12 14:16:00,370	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:red', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161759)
+INFO	2020-11-12 14:17:08,106	[BasePage.py:38]	('id', 'userNameInput')出现,等待时间0.02s
+INFO	2020-11-12 14:17:08,106	[BasePage.py:77]	在:('id', 'userNameInput')中输入:0010437
+INFO	2020-11-12 14:17:08,219	[BasePage.py:38]	('id', 'passwordInput')出现,等待时间0.02s
+INFO	2020-11-12 14:17:08,220	[BasePage.py:77]	在:('id', 'passwordInput')中输入:wxj@2016
+INFO	2020-11-12 14:17:08,327	[BasePage.py:38]	('id', 'submitButton')出现,等待时间0.02s
+INFO	2020-11-12 14:17:08,327	[BasePage.py:49]	点击:('id', 'submitButton')
+INFO	2020-11-12 14:17:08,328	[BasePage.py:113]	滑动到元素('id', 'submitButton')
+INFO	2020-11-12 14:17:33,842	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 14:17:33,842	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1111.0013
+INFO	2020-11-12 14:17:33,893	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1111.0013', ['test_search_001'], ['test_searchcase_001_003'], ['test_searchcase_001_003'], ['0'], 1605161853)
+INFO	2020-11-12 14:17:33,944	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['27.992827653884888'], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161853)
+INFO	2020-11-12 14:17:34,062	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s([" 'selenium.common.exceptions.NoSuchFrameException: Message: _rnd_101796254395346')"], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161853)
+INFO	2020-11-12 14:17:34,170	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('不通过', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161853)
+INFO	2020-11-12 14:17:34,286	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:red', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605161853)
+INFO	2020-11-12 14:20:17,070	[BasePage.py:38]	('id', 'userNameInput')出现,等待时间0.03s
+INFO	2020-11-12 14:20:17,070	[BasePage.py:77]	在:('id', 'userNameInput')中输入:0010437
+INFO	2020-11-12 14:20:17,184	[BasePage.py:38]	('id', 'passwordInput')出现,等待时间0.02s
+INFO	2020-11-12 14:20:17,185	[BasePage.py:77]	在:('id', 'passwordInput')中输入:wxj@2016
+INFO	2020-11-12 14:20:17,293	[BasePage.py:38]	('id', 'submitButton')出现,等待时间0.02s
+INFO	2020-11-12 14:20:17,294	[BasePage.py:49]	点击:('id', 'submitButton')
+INFO	2020-11-12 14:20:17,294	[BasePage.py:113]	滑动到元素('id', 'submitButton')
+INFO	2020-11-12 14:20:42,821	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 14:20:42,821	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1111.0013
+INFO	2020-11-12 14:20:42,910	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1111.0013', ['test_search_001'], ['test_searchcase_001_003'], ['test_searchcase_001_003'], ['0'], 1605162042)
+INFO	2020-11-12 14:20:43,062	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['28.216595888137817'], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162042)
+INFO	2020-11-12 14:20:43,146	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s([" 'selenium.common.exceptions.NoSuchFrameException: Message: _rnd_101796254395346')"], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162042)
+INFO	2020-11-12 14:20:43,202	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('不通过', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162042)
+INFO	2020-11-12 14:20:43,293	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:red', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162042)
+INFO	2020-11-12 14:21:44,941	[BasePage.py:38]	('id', 'userNameInput')出现,等待时间0.03s
+INFO	2020-11-12 14:21:44,942	[BasePage.py:77]	在:('id', 'userNameInput')中输入:0010437
+INFO	2020-11-12 14:21:45,057	[BasePage.py:38]	('id', 'passwordInput')出现,等待时间0.02s
+INFO	2020-11-12 14:21:45,057	[BasePage.py:77]	在:('id', 'passwordInput')中输入:wxj@2016
+INFO	2020-11-12 14:21:45,164	[BasePage.py:38]	('id', 'submitButton')出现,等待时间0.02s
+INFO	2020-11-12 14:21:45,164	[BasePage.py:49]	点击:('id', 'submitButton')
+INFO	2020-11-12 14:21:45,164	[BasePage.py:113]	滑动到元素('id', 'submitButton')
+INFO	2020-11-12 14:21:50,212	[BasePage.py:113]	滑动到元素('xpath', "//*[contains(text(),'系统架构示意图')]")
+INFO	2020-11-12 14:22:12,787	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 14:22:12,787	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1111.0013
+INFO	2020-11-12 14:22:12,901	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1111.0013', ['test_search_001'], ['test_searchcase_001_003'], ['test_searchcase_001_003'], ['0'], 1605162132)
+INFO	2020-11-12 14:22:13,118	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['29.5110924243927'], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162132)
+INFO	2020-11-12 14:22:13,480	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s([" 'selenium.common.exceptions.NoSuchFrameException: Message: _rnd_101796254395346')"], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162132)
+INFO	2020-11-12 14:22:13,592	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('不通过', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162132)
+INFO	2020-11-12 14:22:13,701	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:red', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162132)
+INFO	2020-11-12 14:22:42,418	[BasePage.py:38]	('id', 'userNameInput')出现,等待时间0.03s
+INFO	2020-11-12 14:22:42,418	[BasePage.py:77]	在:('id', 'userNameInput')中输入:0010437
+INFO	2020-11-12 14:22:42,527	[BasePage.py:38]	('id', 'passwordInput')出现,等待时间0.02s
+INFO	2020-11-12 14:22:42,527	[BasePage.py:77]	在:('id', 'passwordInput')中输入:wxj@2016
+INFO	2020-11-12 14:22:42,635	[BasePage.py:38]	('id', 'submitButton')出现,等待时间0.02s
+INFO	2020-11-12 14:22:42,635	[BasePage.py:49]	点击:('id', 'submitButton')
+INFO	2020-11-12 14:22:42,635	[BasePage.py:113]	滑动到元素('id', 'submitButton')
+INFO	2020-11-12 14:22:47,686	[BasePage.py:113]	滑动到元素('xpath', "//*[contains(text(),'长期发布')]")
+INFO	2020-11-12 14:23:10,304	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 14:23:10,304	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1111.0013
+INFO	2020-11-12 14:23:10,457	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1111.0013', ['test_search_001'], ['test_searchcase_001_003'], ['test_searchcase_001_003'], ['0'], 1605162190)
+INFO	2020-11-12 14:23:10,780	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['30.06062364578247'], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162190)
+INFO	2020-11-12 14:23:10,980	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s([" 'selenium.common.exceptions.NoSuchFrameException: Message: _rnd_101796254395346')"], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162190)
+INFO	2020-11-12 14:23:11,033	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('不通过', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162190)
+INFO	2020-11-12 14:23:11,171	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:red', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162190)
+INFO	2020-11-12 14:28:09,568	[BasePage.py:38]	('id', 'userNameInput')出现,等待时间0.03s
+INFO	2020-11-12 14:28:09,568	[BasePage.py:77]	在:('id', 'userNameInput')中输入:0010437
+INFO	2020-11-12 14:28:09,679	[BasePage.py:38]	('id', 'passwordInput')出现,等待时间0.02s
+INFO	2020-11-12 14:28:09,679	[BasePage.py:77]	在:('id', 'passwordInput')中输入:wxj@2016
+INFO	2020-11-12 14:28:09,785	[BasePage.py:38]	('id', 'submitButton')出现,等待时间0.02s
+INFO	2020-11-12 14:28:09,785	[BasePage.py:49]	点击:('id', 'submitButton')
+INFO	2020-11-12 14:28:09,785	[BasePage.py:113]	滑动到元素('id', 'submitButton')
+INFO	2020-11-12 14:28:14,833	[BasePage.py:113]	滑动到元素('xpath', "//*[contains(text(),'长期发布')]")
+ERROR	2020-11-12 14:28:39,947	[BasePage.py:40]	未能等待元素出现。
+INFO	2020-11-12 14:28:39,947	[BasePage.py:49]	点击:('id', '_rnd_224579537997674')
+INFO	2020-11-12 14:28:39,947	[BasePage.py:113]	滑动到元素('id', '_rnd_224579537997674')
+ERROR	2020-11-12 14:28:49,954	[BasePage.py:118]	滑动到元素('id', '_rnd_224579537997674')失败
+ERROR	2020-11-12 14:28:59,959	[BasePage.py:53]	('id', '_rnd_224579537997674')点击失败
+INFO	2020-11-12 14:29:00,017	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 14:29:00,017	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1111.0013
+INFO	2020-11-12 14:29:00,154	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1111.0013', ['test_search_001'], ['test_searchcase_001_003'], ['test_searchcase_001_003'], ['1'], 1605162539)
+INFO	2020-11-12 14:29:00,193	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['53.043174505233765'], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162539)
+INFO	2020-11-12 14:29:00,279	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('null', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162539)
+INFO	2020-11-12 14:29:00,421	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('通过', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162539)
+INFO	2020-11-12 14:29:00,478	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:Lime', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162539)
+INFO	2020-11-12 14:29:54,405	[BasePage.py:38]	('id', 'userNameInput')出现,等待时间0.03s
+INFO	2020-11-12 14:29:54,405	[BasePage.py:77]	在:('id', 'userNameInput')中输入:0010437
+INFO	2020-11-12 14:29:54,542	[BasePage.py:38]	('id', 'passwordInput')出现,等待时间0.03s
+INFO	2020-11-12 14:29:54,542	[BasePage.py:77]	在:('id', 'passwordInput')中输入:wxj@2016
+INFO	2020-11-12 14:29:54,660	[BasePage.py:38]	('id', 'submitButton')出现,等待时间0.02s
+INFO	2020-11-12 14:29:54,660	[BasePage.py:49]	点击:('id', 'submitButton')
+INFO	2020-11-12 14:29:54,660	[BasePage.py:113]	滑动到元素('id', 'submitButton')
+INFO	2020-11-12 14:29:59,718	[BasePage.py:113]	滑动到元素('xpath', "//*[contains(text(),'长期发布')]")
+ERROR	2020-11-12 14:30:24,840	[BasePage.py:40]	未能等待元素出现。
+INFO	2020-11-12 14:30:24,840	[BasePage.py:49]	点击:('id', '_rnd_224579537997674')
+INFO	2020-11-12 14:30:24,840	[BasePage.py:113]	滑动到元素('id', '_rnd_224579537997674')
+ERROR	2020-11-12 14:30:34,845	[BasePage.py:118]	滑动到元素('id', '_rnd_224579537997674')失败
+ERROR	2020-11-12 14:30:44,891	[BasePage.py:53]	('id', '_rnd_224579537997674')点击失败
+INFO	2020-11-12 14:30:44,950	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 14:30:44,950	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1111.0013
+INFO	2020-11-12 14:30:45,008	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1111.0013', ['test_search_001'], ['test_searchcase_001_003'], ['test_searchcase_001_003'], ['1'], 1605162644)
+INFO	2020-11-12 14:30:45,201	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['54.181134939193726'], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162644)
+INFO	2020-11-12 14:30:45,333	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('null', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162644)
+INFO	2020-11-12 14:30:45,381	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('通过', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162644)
+INFO	2020-11-12 14:30:45,500	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:Lime', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162644)
+INFO	2020-11-12 14:32:17,358	[BasePage.py:38]	('id', 'userNameInput')出现,等待时间0.03s
+INFO	2020-11-12 14:32:17,358	[BasePage.py:77]	在:('id', 'userNameInput')中输入:0010437
+INFO	2020-11-12 14:32:17,478	[BasePage.py:38]	('id', 'passwordInput')出现,等待时间0.03s
+INFO	2020-11-12 14:32:17,478	[BasePage.py:77]	在:('id', 'passwordInput')中输入:wxj@2016
+INFO	2020-11-12 14:32:17,598	[BasePage.py:38]	('id', 'submitButton')出现,等待时间0.02s
+INFO	2020-11-12 14:32:17,598	[BasePage.py:49]	点击:('id', 'submitButton')
+INFO	2020-11-12 14:32:17,598	[BasePage.py:113]	滑动到元素('id', 'submitButton')
+INFO	2020-11-12 14:32:22,651	[BasePage.py:113]	滑动到元素('xpath', "//*[contains(text(),'长期发布')]")
+INFO	2020-11-12 14:32:26,735	[BasePage.py:38]	('xpath', "//*[@id='total_file_size']/..//div//div")出现,等待时间0.03s
+INFO	2020-11-12 14:32:26,735	[BasePage.py:49]	点击:('xpath', "//*[@id='total_file_size']/..//div//div")
+INFO	2020-11-12 14:32:26,735	[BasePage.py:113]	滑动到元素('xpath', "//*[@id='total_file_size']/..//div//div")
+ERROR	2020-11-12 14:32:29,865	[BasePage.py:53]	('xpath', "//*[@id='total_file_size']/..//div//div")点击失败
+INFO	2020-11-12 14:32:29,943	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 14:32:29,944	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1111.0013
+INFO	2020-11-12 14:32:30,013	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1111.0013', ['test_search_001'], ['test_searchcase_001_003'], ['test_searchcase_001_003'], ['1'], 1605162749)
+INFO	2020-11-12 14:32:30,181	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['15.167446374893188'], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162749)
+INFO	2020-11-12 14:32:30,339	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('null', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162749)
+INFO	2020-11-12 14:32:30,422	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('通过', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162749)
+INFO	2020-11-12 14:32:30,478	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:Lime', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162749)
+INFO	2020-11-12 14:32:57,174	[BasePage.py:38]	('id', 'userNameInput')出现,等待时间0.03s
+INFO	2020-11-12 14:32:57,174	[BasePage.py:77]	在:('id', 'userNameInput')中输入:0010437
+INFO	2020-11-12 14:32:57,287	[BasePage.py:38]	('id', 'passwordInput')出现,等待时间0.02s
+INFO	2020-11-12 14:32:57,287	[BasePage.py:77]	在:('id', 'passwordInput')中输入:wxj@2016
+INFO	2020-11-12 14:32:57,393	[BasePage.py:38]	('id', 'submitButton')出现,等待时间0.02s
+INFO	2020-11-12 14:32:57,393	[BasePage.py:49]	点击:('id', 'submitButton')
+INFO	2020-11-12 14:32:57,393	[BasePage.py:113]	滑动到元素('id', 'submitButton')
+INFO	2020-11-12 14:33:02,441	[BasePage.py:113]	滑动到元素('xpath', "//*[contains(text(),'长期发布')]")
+INFO	2020-11-12 14:33:06,512	[BasePage.py:38]	('xpath', "//*[@id='total_file_size']/..//div//div")出现,等待时间0.02s
+INFO	2020-11-12 14:33:06,512	[BasePage.py:49]	点击:('xpath', "//*[@id='total_file_size']/..//div//div")
+INFO	2020-11-12 14:33:06,512	[BasePage.py:113]	滑动到元素('xpath', "//*[@id='total_file_size']/..//div//div")
+ERROR	2020-11-12 14:33:09,609	[BasePage.py:53]	('xpath', "//*[@id='total_file_size']/..//div//div")点击失败
+INFO	2020-11-12 14:33:09,662	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 14:33:09,662	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1111.0013
+INFO	2020-11-12 14:33:09,742	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1111.0013', ['test_search_001'], ['test_searchcase_001_003'], ['test_searchcase_001_003'], ['1'], 1605162789)
+INFO	2020-11-12 14:33:09,837	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['15.12256669998169'], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162789)
+INFO	2020-11-12 14:33:09,960	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('null', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162789)
+INFO	2020-11-12 14:33:10,103	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('通过', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162789)
+INFO	2020-11-12 14:33:10,276	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:Lime', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162789)
+INFO	2020-11-12 14:33:34,624	[BasePage.py:38]	('id', 'userNameInput')出现,等待时间0.03s
+INFO	2020-11-12 14:33:34,625	[BasePage.py:76]	在:('id', 'userNameInput')中输入:0010437
+INFO	2020-11-12 14:33:34,777	[BasePage.py:38]	('id', 'passwordInput')出现,等待时间0.03s
+INFO	2020-11-12 14:33:34,777	[BasePage.py:76]	在:('id', 'passwordInput')中输入:wxj@2016
+INFO	2020-11-12 14:33:34,927	[BasePage.py:38]	('id', 'submitButton')出现,等待时间0.03s
+INFO	2020-11-12 14:33:34,927	[BasePage.py:49]	点击:('id', 'submitButton')
+INFO	2020-11-12 14:33:37,978	[BasePage.py:112]	滑动到元素('xpath', "//*[contains(text(),'长期发布')]")
+INFO	2020-11-12 14:33:42,068	[BasePage.py:38]	('xpath', "//*[@id='total_file_size']/..//div//div")出现,等待时间0.03s
+INFO	2020-11-12 14:33:42,068	[BasePage.py:49]	点击:('xpath', "//*[@id='total_file_size']/..//div//div")
+INFO	2020-11-12 14:33:42,165	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 14:33:42,165	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1111.0013
+INFO	2020-11-12 14:33:42,294	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1111.0013', ['test_search_001'], ['test_searchcase_001_003'], ['test_searchcase_001_003'], ['1'], 1605162822)
+INFO	2020-11-12 14:33:42,550	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['10.546801805496216'], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162822)
+INFO	2020-11-12 14:33:42,785	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('null', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162822)
+INFO	2020-11-12 14:33:42,908	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('通过', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162822)
+INFO	2020-11-12 14:33:43,175	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:Lime', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605162822)
+INFO	2020-11-12 14:38:38,833	[BasePage.py:38]	('id', 'userNameInput')出现,等待时间0.03s
+INFO	2020-11-12 14:38:38,833	[BasePage.py:76]	在:('id', 'userNameInput')中输入:0010437
+INFO	2020-11-12 14:38:38,945	[BasePage.py:38]	('id', 'passwordInput')出现,等待时间0.02s
+INFO	2020-11-12 14:38:38,945	[BasePage.py:76]	在:('id', 'passwordInput')中输入:wxj@2016
+INFO	2020-11-12 14:38:39,051	[BasePage.py:38]	('id', 'submitButton')出现,等待时间0.02s
+INFO	2020-11-12 14:38:39,051	[BasePage.py:49]	点击:('id', 'submitButton')
+INFO	2020-11-12 14:38:42,089	[BasePage.py:112]	滑动到元素('xpath', "//*[contains(text(),'长期发布')]")
+ERROR	2020-11-12 14:39:07,197	[BasePage.py:40]	未能等待元素出现。
+INFO	2020-11-12 14:39:07,197	[BasePage.py:49]	点击:('xpath', "//*[@id='total_file_size']/..//div//div")
+ERROR	2020-11-12 14:39:17,244	[BasePage.py:52]	('xpath', "//*[@id='total_file_size']/..//div//div")点击失败
+INFO	2020-11-12 14:39:17,585	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 14:39:17,586	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1111.0013
+INFO	2020-11-12 14:39:17,890	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1111.0013', ['test_search_001'], ['test_searchcase_001_003'], ['test_searchcase_001_003'], ['1'], 1605163157)
+INFO	2020-11-12 14:39:18,067	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['41.2148015499115'], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605163157)
+INFO	2020-11-12 14:39:18,180	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('null', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605163157)
+INFO	2020-11-12 14:39:18,366	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('通过', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605163157)
+INFO	2020-11-12 14:39:18,430	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:Lime', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605163157)
+INFO	2020-11-12 15:51:42,578	[BasePage.py:38]	('id', 'userNameInput')出现,等待时间0.03s
+INFO	2020-11-12 15:51:42,579	[BasePage.py:76]	在:('id', 'userNameInput')中输入:0010437
+INFO	2020-11-12 15:51:42,701	[BasePage.py:38]	('id', 'passwordInput')出现,等待时间0.02s
+INFO	2020-11-12 15:51:42,702	[BasePage.py:76]	在:('id', 'passwordInput')中输入:wxj@2016
+INFO	2020-11-12 15:51:42,814	[BasePage.py:38]	('id', 'submitButton')出现,等待时间0.02s
+INFO	2020-11-12 15:51:42,814	[BasePage.py:49]	点击:('id', 'submitButton')
+INFO	2020-11-12 15:51:45,852	[BasePage.py:112]	滑动到元素('xpath', "//*[contains(text(),'长期发布')]")
+ERROR	2020-11-12 15:52:10,889	[BasePage.py:40]	未能等待元素出现。
+INFO	2020-11-12 15:52:10,889	[BasePage.py:49]	点击:('xpath', "//*[@id='total_file_size']/..//div//div")
+ERROR	2020-11-12 15:52:20,942	[BasePage.py:52]	('xpath', "//*[@id='total_file_size']/..//div//div")点击失败
+INFO	2020-11-12 15:52:21,144	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 15:52:21,144	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1111.0013
+INFO	2020-11-12 15:52:21,488	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1111.0013', ['test_search_001'], ['test_searchcase_001_003'], ['test_searchcase_001_003'], ['1'], 1605167540)
+INFO	2020-11-12 15:52:21,708	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['41.02833962440491'], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605167540)
+INFO	2020-11-12 15:52:21,872	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('null', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605167540)
+INFO	2020-11-12 15:52:21,941	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('通过', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605167540)
+INFO	2020-11-12 15:52:22,125	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:Lime', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605167540)
+INFO	2020-11-12 15:54:45,913	[BasePage.py:38]	('id', 'userNameInput')出现,等待时间0.03s
+INFO	2020-11-12 15:54:45,913	[BasePage.py:76]	在:('id', 'userNameInput')中输入:0010437
+INFO	2020-11-12 15:54:46,028	[BasePage.py:38]	('id', 'passwordInput')出现,等待时间0.02s
+INFO	2020-11-12 15:54:46,028	[BasePage.py:76]	在:('id', 'passwordInput')中输入:wxj@2016
+INFO	2020-11-12 15:54:46,135	[BasePage.py:38]	('id', 'submitButton')出现,等待时间0.02s
+INFO	2020-11-12 15:54:46,135	[BasePage.py:49]	点击:('id', 'submitButton')
+INFO	2020-11-12 15:54:49,172	[BasePage.py:112]	滑动到元素('xpath', "//*[contains(text(),'长期发布')]")
+INFO	2020-11-12 15:54:53,247	[BasePage.py:38]	('xpath', "//*[@id='total_file_size']/..//div//div")出现,等待时间0.03s
+INFO	2020-11-12 15:54:53,247	[BasePage.py:49]	点击:('xpath', "//*[@id='total_file_size']/..//div//div")
+INFO	2020-11-12 15:54:53,327	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 15:54:53,327	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1111.0013
+INFO	2020-11-12 15:54:53,428	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1111.0013', ['test_search_001'], ['test_searchcase_001_003'], ['test_searchcase_001_003'], ['1'], 1605167693)
+INFO	2020-11-12 15:54:53,792	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['9.50858736038208'], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605167693)
+INFO	2020-11-12 15:54:54,000	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('null', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605167693)
+INFO	2020-11-12 15:54:54,201	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('通过', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605167693)
+INFO	2020-11-12 15:54:54,550	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:Lime', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605167693)
+INFO	2020-11-12 16:00:37,094	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 16:00:37,094	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1111.0013
+INFO	2020-11-12 16:00:37,214	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1111.0013', ['test_search_001'], ['test_searchcase_001_003'], ['test_searchcase_001_003'], ['1'], 1605168037)
+INFO	2020-11-12 16:00:37,324	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['2.2819013595581055'], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605168037)
+INFO	2020-11-12 16:00:37,533	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('null', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605168037)
+INFO	2020-11-12 16:00:37,617	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('通过', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605168037)
+INFO	2020-11-12 16:00:37,691	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:Lime', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605168037)
+INFO	2020-11-12 16:01:09,144	[BasePage.py:38]	('id', 'userNameInput')出现,等待时间0.03s
+INFO	2020-11-12 16:01:09,144	[BasePage.py:76]	在:('id', 'userNameInput')中输入:0010437
+INFO	2020-11-12 16:01:09,249	[BasePage.py:38]	('id', 'passwordInput')出现,等待时间0.02s
+INFO	2020-11-12 16:01:09,249	[BasePage.py:76]	在:('id', 'passwordInput')中输入:wxj@2016
+INFO	2020-11-12 16:01:09,351	[BasePage.py:38]	('id', 'submitButton')出现,等待时间0.02s
+INFO	2020-11-12 16:01:09,351	[BasePage.py:49]	点击:('id', 'submitButton')
+INFO	2020-11-12 16:01:12,420	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 16:01:12,421	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1111.0013
+INFO	2020-11-12 16:01:12,545	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1111.0013', ['test_search_001'], ['test_searchcase_001_003'], ['test_searchcase_001_003'], ['1'], 1605168072)
+INFO	2020-11-12 16:01:12,632	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['5.5671186447143555'], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605168072)
+INFO	2020-11-12 16:01:12,732	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('null', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605168072)
+INFO	2020-11-12 16:01:12,841	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('通过', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605168072)
+INFO	2020-11-12 16:01:13,029	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:Lime', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605168072)
+INFO	2020-11-12 16:01:58,365	[BasePage.py:38]	('id', 'userNameInput')出现,等待时间0.03s
+INFO	2020-11-12 16:01:58,365	[BasePage.py:76]	在:('id', 'userNameInput')中输入:0010437
+INFO	2020-11-12 16:01:58,476	[BasePage.py:38]	('id', 'passwordInput')出现,等待时间0.02s
+INFO	2020-11-12 16:01:58,476	[BasePage.py:76]	在:('id', 'passwordInput')中输入:wxj@2016
+INFO	2020-11-12 16:01:58,581	[BasePage.py:38]	('id', 'submitButton')出现,等待时间0.02s
+INFO	2020-11-12 16:01:58,582	[BasePage.py:49]	点击:('id', 'submitButton')
+ERROR	2020-11-12 16:02:22,653	[BasePage.py:40]	未能等待元素出现。
+INFO	2020-11-12 16:02:22,653	[BasePage.py:49]	点击:('id', 'btnTracking')
+ERROR	2020-11-12 16:02:32,320	[BasePage.py:52]	('id', 'btnTracking')点击失败
+INFO	2020-11-12 16:02:32,336	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 16:02:32,336	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1111.0013
+INFO	2020-11-12 16:02:32,438	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1111.0013', ['test_search_001'], ['test_searchcase_001_003'], ['test_searchcase_001_003'], ['1'], 1605168152)
+INFO	2020-11-12 16:02:32,527	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['36.2550950050354'], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605168152)
+INFO	2020-11-12 16:02:32,604	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('null', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605168152)
+INFO	2020-11-12 16:02:32,730	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('通过', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605168152)
+INFO	2020-11-12 16:02:32,875	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:Lime', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605168152)
+INFO	2020-11-12 16:03:20,522	[BasePage.py:38]	('id', 'userNameInput')出现,等待时间0.03s
+INFO	2020-11-12 16:03:20,522	[BasePage.py:76]	在:('id', 'userNameInput')中输入:0010437
+INFO	2020-11-12 16:03:20,635	[BasePage.py:38]	('id', 'passwordInput')出现,等待时间0.02s
+INFO	2020-11-12 16:03:20,635	[BasePage.py:76]	在:('id', 'passwordInput')中输入:wxj@2016
+INFO	2020-11-12 16:03:20,755	[BasePage.py:38]	('id', 'submitButton')出现,等待时间0.02s
+INFO	2020-11-12 16:03:20,755	[BasePage.py:49]	点击:('id', 'submitButton')
+INFO	2020-11-12 16:03:23,799	[BasePage.py:122]	切换iframe:topFrame
+INFO	2020-11-12 16:03:23,845	[BasePage.py:38]	('id', 'btnTracking')出现,等待时间0.02s
+INFO	2020-11-12 16:03:23,846	[BasePage.py:49]	点击:('id', 'btnTracking')
+INFO	2020-11-12 16:03:23,991	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 16:03:23,991	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1111.0013
+INFO	2020-11-12 16:03:24,069	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1111.0013', ['test_search_001'], ['test_searchcase_001_003'], ['test_searchcase_001_003'], ['1'], 1605168203)
+INFO	2020-11-12 16:03:24,170	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['5.750629901885986'], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605168203)
+INFO	2020-11-12 16:03:24,361	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('null', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605168203)
+INFO	2020-11-12 16:03:24,419	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('通过', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605168203)
+INFO	2020-11-12 16:03:24,494	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:Lime', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605168203)
+INFO	2020-11-12 16:03:42,750	[BasePage.py:38]	('id', 'userNameInput')出现,等待时间0.03s
+INFO	2020-11-12 16:03:42,750	[BasePage.py:76]	在:('id', 'userNameInput')中输入:0010437
+INFO	2020-11-12 16:03:42,857	[BasePage.py:38]	('id', 'passwordInput')出现,等待时间0.02s
+INFO	2020-11-12 16:03:42,857	[BasePage.py:76]	在:('id', 'passwordInput')中输入:wxj@2016
+INFO	2020-11-12 16:03:42,960	[BasePage.py:38]	('id', 'submitButton')出现,等待时间0.02s
+INFO	2020-11-12 16:03:42,960	[BasePage.py:49]	点击:('id', 'submitButton')
+INFO	2020-11-12 16:03:46,003	[BasePage.py:122]	切换iframe:topFrame
+INFO	2020-11-12 16:03:46,050	[BasePage.py:38]	('id', 'btnTracking')出现,等待时间0.02s
+INFO	2020-11-12 16:03:46,051	[BasePage.py:49]	点击:('id', 'btnTracking')
+INFO	2020-11-12 16:03:46,293	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 16:03:46,294	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1111.0013
+INFO	2020-11-12 16:03:46,410	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1111.0013', ['test_search_001'], ['test_searchcase_001_003'], ['test_searchcase_001_003'], ['1'], 1605168226)
+INFO	2020-11-12 16:03:46,544	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['5.767574071884155'], ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605168226)
+INFO	2020-11-12 16:03:46,751	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('null', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605168226)
+INFO	2020-11-12 16:03:46,835	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('通过', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605168226)
+INFO	2020-11-12 16:03:47,132	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:Lime', ['test_searchcase_001_003'], 'v2020.1111.0013', ['test_search_001'], 1605168226)
+INFO	2020-11-12 16:06:48,713	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT version FROM proj_verion_config WHERE type = %s AND project= %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 16:06:48,714	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1111.0013
+INFO	2020-11-12 16:06:48,796	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE proj_verion_config SET version = %s WHERE type = %s AND project= %s ('v2020.1112.0001', 'WEB', 'BAIDU')
+INFO	2020-11-12 16:06:49,848	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 16:06:49,848	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1112.0001
+ERROR	2020-11-12 16:07:10,154	[BasePage.py:40]	未能等待元素出现。
+INFO	2020-11-12 16:07:10,155	[BasePage.py:76]	在:('id', 'kw')中输入:selenium
+ERROR	2020-11-12 16:07:10,159	[BasePage.py:80]	输入操作失败
+ERROR	2020-11-12 16:07:10,161	[BasePage.py:40]	未能等待元素出现。
+INFO	2020-11-12 16:07:10,161	[BasePage.py:49]	点击:('id', 'su')
+ERROR	2020-11-12 16:07:10,164	[BasePage.py:52]	('id', 'su')点击失败
+ERROR	2020-11-12 16:07:11,571	[BasePage.py:40]	未能等待元素出现。
+INFO	2020-11-12 16:07:11,572	[BasePage.py:76]	在:('id', 'kw')中输入:pytest
+ERROR	2020-11-12 16:07:13,167	[BasePage.py:40]	未能等待元素出现。
+INFO	2020-11-12 16:07:13,167	[BasePage.py:86]	鼠标悬停在:('xpath', "//*[@id='u']//*[@name='tj_settingicon']")之上
+ERROR	2020-11-12 16:07:13,168	[BasePage.py:89]	鼠标悬停操作失败
+ERROR	2020-11-12 16:07:15,171	[BasePage.py:40]	未能等待元素出现。
+INFO	2020-11-12 16:07:15,171	[BasePage.py:67]	右击:('xpath', "//*[@id='u']//*[@name='tj_settingicon']")
+ERROR	2020-11-12 16:07:15,173	[BasePage.py:70]	('xpath', "//*[@id='u']//*[@name='tj_settingicon']")右击失败
+ERROR	2020-11-12 16:07:15,176	[BasePage.py:137]	元素('xpath', "//*[contains(text(),'MeterSphere - 开源自动化测试平台')]")不存在
+INFO	2020-11-12 16:07:15,301	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 16:07:15,302	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1112.0001
+INFO	2020-11-12 16:07:15,370	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1112.0001', ['testcase/baidu_search_001/test_search_001'], ['test_searchcase_001_001'], ['test_searchcase_001_001'], ['0'], 1605168435)
+INFO	2020-11-12 16:07:15,428	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['20.51716136932373'], ['test_searchcase_001_001'], 'v2020.1112.0001', ['testcase/baidu_search_001/test_search_001'], 1605168435)
+INFO	2020-11-12 16:07:15,562	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s([' \'assert False == True\\n +  where False = <bound method BasePage.isElementPresent of <page_object.pages.BasePage.BasePage object at 0x0000016B51814710>>((\\\'xpath\\\', "//*[contains(text(),\\\'MeterSphere - 开源自动化测试平台\\\')]"))\\n +    where <bound method BasePage.isElementPresent of <page_object.pages.BasePage.BasePage object at 0x0000016B51814710>> = <page_object.pages.BasePage.BasePage object at 0x0000016B51814710>.isElementPresent\')'], ['test_searchcase_001_001'], 'v2020.1112.0001', ['testcase/baidu_search_001/test_search_001'], 1605168435)
+ERROR	2020-11-12 16:07:15,586	[BasePage.py:80]	输入操作失败
+INFO	2020-11-12 16:07:15,669	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('不通过', ['test_searchcase_001_001'], 'v2020.1112.0001', ['testcase/baidu_search_001/test_search_001'], 1605168435)
+INFO	2020-11-12 16:07:15,753	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:red', ['test_searchcase_001_001'], 'v2020.1112.0001', ['testcase/baidu_search_001/test_search_001'], 1605168435)
+ERROR	2020-11-12 16:07:19,600	[BasePage.py:40]	未能等待元素出现。
+INFO	2020-11-12 16:07:19,600	[BasePage.py:49]	点击:('id', 'su')
+ERROR	2020-11-12 16:07:23,612	[BasePage.py:52]	('id', 'su')点击失败
+ERROR	2020-11-12 16:07:30,628	[BasePage.py:137]	元素('xpath', "//*[contains(text(),'Web开发服务应用软件')]")不存在
+INFO	2020-11-12 16:12:48,753	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT version FROM proj_verion_config WHERE type = %s AND project= %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 16:12:48,753	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1112.0001
+INFO	2020-11-12 16:12:48,834	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE proj_verion_config SET version = %s WHERE type = %s AND project= %s ('v2020.1112.0002', 'WEB', 'BAIDU')
+INFO	2020-11-12 16:12:49,564	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 16:12:49,564	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1112.0002
+INFO	2020-11-12 16:12:57,841	[BasePage.py:38]	('id', 'kw')出现,等待时间0.03s
+INFO	2020-11-12 16:12:57,841	[BasePage.py:76]	在:('id', 'kw')中输入:pytest
+INFO	2020-11-12 16:12:58,041	[BasePage.py:38]	('id', 'su')出现,等待时间0.03s
+INFO	2020-11-12 16:12:58,041	[BasePage.py:49]	点击:('id', 'su')
+INFO	2020-11-12 16:12:58,739	[BasePage.py:38]	('id', 'kw')出现,等待时间0.04s
+INFO	2020-11-12 16:12:58,739	[BasePage.py:76]	在:('id', 'kw')中输入:selenium
+INFO	2020-11-12 16:12:58,984	[BasePage.py:38]	('id', 'su')出现,等待时间0.03s
+INFO	2020-11-12 16:12:58,984	[BasePage.py:49]	点击:('id', 'su')
+INFO	2020-11-12 16:13:01,161	[BasePage.py:140]	元素('xpath', "//*[contains(text(),'Web开发服务应用软件')]")存在
+INFO	2020-11-12 16:13:02,116	[BasePage.py:38]	('xpath', "//*[@id='u']//*[@name='tj_settingicon']")出现,等待时间0.02s
+INFO	2020-11-12 16:13:02,117	[BasePage.py:86]	鼠标悬停在:('xpath', "//*[@id='u']//*[@name='tj_settingicon']")之上
+INFO	2020-11-12 16:13:04,419	[BasePage.py:38]	('xpath', "//*[@id='u']//*[@name='tj_settingicon']")出现,等待时间0.03s
+INFO	2020-11-12 16:13:04,419	[BasePage.py:67]	右击:('xpath', "//*[@id='u']//*[@name='tj_settingicon']")
+INFO	2020-11-12 16:13:09,538	[BasePage.py:38]	('id', 'kw')出现,等待时间0.03s
+INFO	2020-11-12 16:13:09,538	[BasePage.py:76]	在:('id', 'kw')中输入:自动化测试
+INFO	2020-11-12 16:13:09,744	[BasePage.py:38]	('id', 'su')出现,等待时间0.06s
+INFO	2020-11-12 16:13:09,745	[BasePage.py:49]	点击:('id', 'su')
+INFO	2020-11-12 16:13:12,855	[BasePage.py:140]	元素('xpath', "//*[contains(text(),'自动化测试需要学什么')]")存在
+ERROR	2020-11-12 16:13:14,483	[BasePage.py:137]	元素('xpath', "//*[contains(text(),'MeterSphere - 开源自动化测试平台')]")不存在
+INFO	2020-11-12 16:13:15,030	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 16:13:15,030	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1112.0002
+INFO	2020-11-12 16:13:15,205	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1112.0002', ['testcase/baidu_search_002/test_search_002'], ['test_searchcase_002_001'], ['test_searchcase_002_001'], ['1'], 1605168795)
+INFO	2020-11-12 16:13:15,272	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['6.6841349601745605'], ['test_searchcase_002_001'], 'v2020.1112.0002', ['testcase/baidu_search_002/test_search_002'], 1605168795)
+INFO	2020-11-12 16:13:15,300	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['6.240314960479736'], ['test_searchcase_002_002'], 'v2020.1112.0002', ['testcase/baidu_search_002/test_search_002'], 1605168795)
+INFO	2020-11-12 16:13:15,416	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('null', ['test_searchcase_002_001'], 'v2020.1112.0002', ['testcase/baidu_search_002/test_search_002'], 1605168795)
+INFO	2020-11-12 16:13:15,419	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('null', ['test_searchcase_002_002'], 'v2020.1112.0002', ['testcase/baidu_search_002/test_search_002'], 1605168795)
+INFO	2020-11-12 16:13:15,600	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1112.0002', ['testcase/baidu_search_002/test_search_002'], ['test_searchcase_002_002'], ['test_searchcase_002_002'], ['1'], 1605168795)
+INFO	2020-11-12 16:13:15,631	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['6.6841349601745605'], ['test_searchcase_002_001'], 'v2020.1112.0002', ['testcase/baidu_search_002/test_search_002'], 1605168795)
+INFO	2020-11-12 16:13:15,752	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['6.240314960479736'], ['test_searchcase_002_002'], 'v2020.1112.0002', ['testcase/baidu_search_002/test_search_002'], 1605168795)
+INFO	2020-11-12 16:13:15,818	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('null', ['test_searchcase_002_001'], 'v2020.1112.0002', ['testcase/baidu_search_002/test_search_002'], 1605168795)
+INFO	2020-11-12 16:13:15,967	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('null', ['test_searchcase_002_002'], 'v2020.1112.0002', ['testcase/baidu_search_002/test_search_002'], 1605168795)
+INFO	2020-11-12 16:13:16,026	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('通过', ['test_searchcase_002_001'], 'v2020.1112.0002', ['testcase/baidu_search_002/test_search_002'], 1605168795)
+INFO	2020-11-12 16:13:16,322	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:Lime', ['test_searchcase_002_001'], 'v2020.1112.0002', ['testcase/baidu_search_002/test_search_002'], 1605168795)
+INFO	2020-11-12 16:13:16,391	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('通过', ['test_searchcase_002_002'], 'v2020.1112.0002', ['testcase/baidu_search_002/test_search_002'], 1605168795)
+INFO	2020-11-12 16:13:16,516	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:Lime', ['test_searchcase_002_002'], 'v2020.1112.0002', ['testcase/baidu_search_002/test_search_002'], 1605168795)
+INFO	2020-11-12 16:13:25,537	[BasePage.py:38]	('id', 'kw')出现,等待时间0.03s
+INFO	2020-11-12 16:13:25,537	[BasePage.py:76]	在:('id', 'kw')中输入:python
+INFO	2020-11-12 16:13:25,730	[BasePage.py:38]	('id', 'su')出现,等待时间0.03s
+INFO	2020-11-12 16:13:25,730	[BasePage.py:49]	点击:('id', 'su')
+ERROR	2020-11-12 16:13:38,842	[BasePage.py:137]	元素('xpath', "//*[contains(text(),'PyCharm开发工具')]")不存在
+INFO	2020-11-12 16:13:43,565	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 16:13:43,565	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1112.0002
+INFO	2020-11-12 16:13:43,696	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1112.0002', ['testcase/baidu_search_001/test_search_001'], ['test_searchcase_001_001'], ['test_searchcase_001_001'], ['0'], 1605168823)
+INFO	2020-11-12 16:13:43,862	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['19.9391930103302'], ['test_searchcase_001_001'], 'v2020.1112.0002', ['testcase/baidu_search_001/test_search_001'], 1605168823)
+INFO	2020-11-12 16:13:43,864	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['16.35428786277771'], ['test_searchcase_001_002'], 'v2020.1112.0002', ['testcase/baidu_search_001/test_search_001'], 1605168823)
+INFO	2020-11-12 16:13:43,965	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s([' \'assert False == True\\n +  where False = <bound method BasePage.isElementPresent of <page_object.pages.BasePage.BasePage object at 0x0000021779C14710>>((\\\'xpath\\\', "//*[contains(text(),\\\'MeterSphere - 开源自动化测试平台\\\')]"))\\n +    where <bound method BasePage.isElementPresent of <page_object.pages.BasePage.BasePage object at 0x0000021779C14710>> = <page_object.pages.BasePage.BasePage object at 0x0000021779C14710>.isElementPresent\')'], ['test_searchcase_001_001'], 'v2020.1112.0002', ['testcase/baidu_search_001/test_search_001'], 1605168823)
+INFO	2020-11-12 16:13:43,967	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s([' \'assert False == True\\n +  where False = <bound method BasePage.isElementPresent of <page_object.pages.BasePage.BasePage object at 0x00000217799808D0>>((\\\'xpath\\\', "//*[contains(text(),\\\'PyCharm开发工具\\\')]"))\\n +    where <bound method BasePage.isElementPresent of <page_object.pages.BasePage.BasePage object at 0x00000217799808D0>> = <page_object.pages.BasePage.BasePage object at 0x00000217799808D0>.isElementPresent\')'], ['test_searchcase_001_002'], 'v2020.1112.0002', ['testcase/baidu_search_001/test_search_001'], 1605168823)
+INFO	2020-11-12 16:13:44,321	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1112.0002', ['testcase/baidu_search_001/test_search_001'], ['test_searchcase_001_002'], ['test_searchcase_001_002'], ['0'], 1605168823)
+INFO	2020-11-12 16:13:44,391	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['19.9391930103302'], ['test_searchcase_001_001'], 'v2020.1112.0002', ['testcase/baidu_search_001/test_search_001'], 1605168823)
+INFO	2020-11-12 16:13:44,570	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['16.35428786277771'], ['test_searchcase_001_002'], 'v2020.1112.0002', ['testcase/baidu_search_001/test_search_001'], 1605168823)
+INFO	2020-11-12 16:13:44,641	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s([' \'assert False == True\\n +  where False = <bound method BasePage.isElementPresent of <page_object.pages.BasePage.BasePage object at 0x0000021779C14710>>((\\\'xpath\\\', "//*[contains(text(),\\\'MeterSphere - 开源自动化测试平台\\\')]"))\\n +    where <bound method BasePage.isElementPresent of <page_object.pages.BasePage.BasePage object at 0x0000021779C14710>> = <page_object.pages.BasePage.BasePage object at 0x0000021779C14710>.isElementPresent\')'], ['test_searchcase_001_001'], 'v2020.1112.0002', ['testcase/baidu_search_001/test_search_001'], 1605168823)
+INFO	2020-11-12 16:13:44,815	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s([' \'assert False == True\\n +  where False = <bound method BasePage.isElementPresent of <page_object.pages.BasePage.BasePage object at 0x00000217799808D0>>((\\\'xpath\\\', "//*[contains(text(),\\\'PyCharm开发工具\\\')]"))\\n +    where <bound method BasePage.isElementPresent of <page_object.pages.BasePage.BasePage object at 0x00000217799808D0>> = <page_object.pages.BasePage.BasePage object at 0x00000217799808D0>.isElementPresent\')'], ['test_searchcase_001_002'], 'v2020.1112.0002', ['testcase/baidu_search_001/test_search_001'], 1605168823)
+INFO	2020-11-12 16:13:44,907	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('不通过', ['test_searchcase_001_001'], 'v2020.1112.0002', ['testcase/baidu_search_001/test_search_001'], 1605168823)
+INFO	2020-11-12 16:13:45,115	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:red', ['test_searchcase_001_001'], 'v2020.1112.0002', ['testcase/baidu_search_001/test_search_001'], 1605168823)
+INFO	2020-11-12 16:13:45,299	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('不通过', ['test_searchcase_001_002'], 'v2020.1112.0002', ['testcase/baidu_search_001/test_search_001'], 1605168823)
+INFO	2020-11-12 16:13:45,424	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:red', ['test_searchcase_001_002'], 'v2020.1112.0002', ['testcase/baidu_search_001/test_search_001'], 1605168823)
+INFO	2020-11-12 16:13:46,113	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT COUNT(*) FROM pytest_ui_result WHERE VERSION = %s 参数值为:v2020.1112.0002
+INFO	2020-11-12 16:13:46,114	[DbSqlUtil.py:59]	查询成功，结果为:4
+INFO	2020-11-12 16:13:46,159	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT COUNT(*) FROM pytest_ui_result WHERE VERSION = %s and result = '1' 参数值为:v2020.1112.0002
+INFO	2020-11-12 16:13:46,159	[DbSqlUtil.py:59]	查询成功，结果为:2
+INFO	2020-11-12 16:13:46,162	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT COUNT(*) FROM pytest_ui_result WHERE VERSION = %s and result = '0' 参数值为:v2020.1112.0002
+INFO	2020-11-12 16:13:46,162	[DbSqlUtil.py:59]	查询成功，结果为:2
+INFO	2020-11-12 16:13:46,581	[DbSqlUtil.py:73]	操作成功，执行语句为SELECT testTitle,result_name,result_color FROM pytest_ui_result WHERE version = %s 参数值为:v2020.1112.0002
+INFO	2020-11-12 16:13:46,581	[DbSqlUtil.py:74]	查询成功，结果为:(('test_searchcase_002_001', '通过', 'style=background-color:Lime'), ('test_searchcase_002_002', '通过', 'style=background-color:Lime'), ('test_searchcase_001_001', '不通过', 'style=background-color:red'), ('test_searchcase_001_002', '不通过', 'style=background-color:red'))
+INFO	2020-11-12 16:14:44,665	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT version FROM proj_verion_config WHERE type = %s AND project= %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 16:14:44,666	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1112.0002
+INFO	2020-11-12 16:14:44,863	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE proj_verion_config SET version = %s WHERE type = %s AND project= %s ('v2020.1112.0003', 'WEB', 'BAIDU')
+INFO	2020-11-12 16:14:45,592	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 16:14:45,592	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1112.0003
+INFO	2020-11-12 16:14:55,332	[BasePage.py:38]	('id', 'kw')出现,等待时间0.03s
+INFO	2020-11-12 16:14:55,333	[BasePage.py:76]	在:('id', 'kw')中输入:pytest
+INFO	2020-11-12 16:14:55,537	[BasePage.py:38]	('id', 'su')出现,等待时间0.03s
+INFO	2020-11-12 16:14:55,538	[BasePage.py:49]	点击:('id', 'su')
+INFO	2020-11-12 16:14:55,567	[BasePage.py:38]	('id', 'kw')出现,等待时间0.05s
+INFO	2020-11-12 16:14:55,568	[BasePage.py:76]	在:('id', 'kw')中输入:selenium
+INFO	2020-11-12 16:14:55,862	[BasePage.py:38]	('id', 'su')出现,等待时间0.04s
+INFO	2020-11-12 16:14:55,862	[BasePage.py:49]	点击:('id', 'su')
+INFO	2020-11-12 16:14:58,673	[BasePage.py:140]	元素('xpath', "//*[contains(text(),'Web开发服务应用软件')]")存在
+INFO	2020-11-12 16:14:59,026	[BasePage.py:38]	('xpath', "//*[@id='u']//*[@name='tj_settingicon']")出现,等待时间0.03s
+INFO	2020-11-12 16:14:59,026	[BasePage.py:86]	鼠标悬停在:('xpath', "//*[@id='u']//*[@name='tj_settingicon']")之上
+INFO	2020-11-12 16:15:01,318	[BasePage.py:38]	('xpath', "//*[@id='u']//*[@name='tj_settingicon']")出现,等待时间0.02s
+INFO	2020-11-12 16:15:01,318	[BasePage.py:67]	右击:('xpath', "//*[@id='u']//*[@name='tj_settingicon']")
+INFO	2020-11-12 16:15:07,985	[BasePage.py:38]	('id', 'kw')出现,等待时间0.04s
+INFO	2020-11-12 16:15:07,986	[BasePage.py:76]	在:('id', 'kw')中输入:自动化测试
+INFO	2020-11-12 16:15:08,183	[BasePage.py:38]	('id', 'su')出现,等待时间0.03s
+INFO	2020-11-12 16:15:08,183	[BasePage.py:49]	点击:('id', 'su')
+ERROR	2020-11-12 16:15:11,453	[BasePage.py:137]	元素('xpath', "//*[contains(text(),'MeterSphere - 开源自动化测试平台')]")不存在
+INFO	2020-11-12 16:15:11,550	[BasePage.py:140]	元素('xpath', "//*[contains(text(),'自动化测试需要学什么')]")存在
+INFO	2020-11-12 16:15:13,848	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 16:15:13,848	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1112.0003
+INFO	2020-11-12 16:15:13,920	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1112.0003', ['testcase/baidu_search_002/test_search_002'], ['test_searchcase_002_001'], ['test_searchcase_002_001'], ['1'], 1605168913)
+INFO	2020-11-12 16:15:14,185	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['8.498285055160522'], ['test_searchcase_002_001'], 'v2020.1112.0003', ['testcase/baidu_search_002/test_search_002'], 1605168913)
+INFO	2020-11-12 16:15:14,202	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['7.378278017044067'], ['test_searchcase_002_002'], 'v2020.1112.0003', ['testcase/baidu_search_002/test_search_002'], 1605168913)
+INFO	2020-11-12 16:15:14,262	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('null', ['test_searchcase_002_001'], 'v2020.1112.0003', ['testcase/baidu_search_002/test_search_002'], 1605168913)
+INFO	2020-11-12 16:15:14,302	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('null', ['test_searchcase_002_002'], 'v2020.1112.0003', ['testcase/baidu_search_002/test_search_002'], 1605168913)
+INFO	2020-11-12 16:15:14,413	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1112.0003', ['testcase/baidu_search_002/test_search_002'], ['test_searchcase_002_002'], ['test_searchcase_002_002'], ['1'], 1605168913)
+INFO	2020-11-12 16:15:14,415	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['8.498285055160522'], ['test_searchcase_002_001'], 'v2020.1112.0003', ['testcase/baidu_search_002/test_search_002'], 1605168913)
+INFO	2020-11-12 16:15:14,521	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['7.378278017044067'], ['test_searchcase_002_002'], 'v2020.1112.0003', ['testcase/baidu_search_002/test_search_002'], 1605168913)
+INFO	2020-11-12 16:15:14,564	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('null', ['test_searchcase_002_001'], 'v2020.1112.0003', ['testcase/baidu_search_002/test_search_002'], 1605168913)
+INFO	2020-11-12 16:15:14,643	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('null', ['test_searchcase_002_002'], 'v2020.1112.0003', ['testcase/baidu_search_002/test_search_002'], 1605168913)
+INFO	2020-11-12 16:15:14,729	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('通过', ['test_searchcase_002_001'], 'v2020.1112.0003', ['testcase/baidu_search_002/test_search_002'], 1605168913)
+INFO	2020-11-12 16:15:14,863	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:Lime', ['test_searchcase_002_001'], 'v2020.1112.0003', ['testcase/baidu_search_002/test_search_002'], 1605168913)
+INFO	2020-11-12 16:15:14,962	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('通过', ['test_searchcase_002_002'], 'v2020.1112.0003', ['testcase/baidu_search_002/test_search_002'], 1605168913)
+INFO	2020-11-12 16:15:15,063	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:Lime', ['test_searchcase_002_002'], 'v2020.1112.0003', ['testcase/baidu_search_002/test_search_002'], 1605168913)
+INFO	2020-11-12 16:15:22,529	[BasePage.py:38]	('id', 'kw')出现,等待时间0.03s
+INFO	2020-11-12 16:15:22,529	[BasePage.py:76]	在:('id', 'kw')中输入:python
+INFO	2020-11-12 16:15:22,720	[BasePage.py:38]	('id', 'su')出现,等待时间0.02s
+INFO	2020-11-12 16:15:22,720	[BasePage.py:49]	点击:('id', 'su')
+ERROR	2020-11-12 16:15:35,839	[BasePage.py:137]	元素('xpath', "//*[contains(text(),'PyCharm开发工具')]")不存在
+INFO	2020-11-12 16:15:38,422	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s 参数值为:('WEB', 'BAIDU')
+INFO	2020-11-12 16:15:38,422	[DbSqlUtil.py:59]	查询成功，结果为:v2020.1112.0003
+INFO	2020-11-12 16:15:38,519	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1112.0003', ['testcase/baidu_search_001/test_search_001'], ['test_searchcase_001_001'], ['test_searchcase_001_001'], ['0'], 1605168938)
+INFO	2020-11-12 16:15:38,603	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['21.25119924545288'], ['test_searchcase_001_001'], 'v2020.1112.0003', ['testcase/baidu_search_001/test_search_001'], 1605168938)
+INFO	2020-11-12 16:15:38,617	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['16.1887309551239'], ['test_searchcase_001_002'], 'v2020.1112.0003', ['testcase/baidu_search_001/test_search_001'], 1605168938)
+INFO	2020-11-12 16:15:38,687	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s([' \'assert False == True\\n +  where False = <bound method BasePage.isElementPresent of <page_object.pages.BasePage.BasePage object at 0x00000185FDEA4630>>((\\\'xpath\\\', "//*[contains(text(),\\\'MeterSphere - 开源自动化测试平台\\\')]"))\\n +    where <bound method BasePage.isElementPresent of <page_object.pages.BasePage.BasePage object at 0x00000185FDEA4630>> = <page_object.pages.BasePage.BasePage object at 0x00000185FDEA4630>.isElementPresent\')'], ['test_searchcase_001_001'], 'v2020.1112.0003', ['testcase/baidu_search_001/test_search_001'], 1605168938)
+INFO	2020-11-12 16:15:38,690	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s([' \'assert False == True\\n +  where False = <bound method BasePage.isElementPresent of <page_object.pages.BasePage.BasePage object at 0x00000185FDE78CC0>>((\\\'xpath\\\', "//*[contains(text(),\\\'PyCharm开发工具\\\')]"))\\n +    where <bound method BasePage.isElementPresent of <page_object.pages.BasePage.BasePage object at 0x00000185FDE78CC0>> = <page_object.pages.BasePage.BasePage object at 0x00000185FDE78CC0>.isElementPresent\')'], ['test_searchcase_001_002'], 'v2020.1112.0003', ['testcase/baidu_search_001/test_search_001'], 1605168938)
+INFO	2020-11-12 16:15:38,879	[DbSqlUtil.py:86]	操作成功，执行语句为INSERT INTO pytest_ui_result(test_type,project,version,feature_name,testTitle,testTitlename,result,runtime,exceptionmessage,detailed_id)VALUE(%s,%s,%s,%s,%s,%s,%s,null,null,%s)('WEB', 'BAIDU', 'v2020.1112.0003', ['testcase/baidu_search_001/test_search_001'], ['test_searchcase_001_002'], ['test_searchcase_001_002'], ['0'], 1605168938)
+INFO	2020-11-12 16:15:38,989	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['21.25119924545288'], ['test_searchcase_001_001'], 'v2020.1112.0003', ['testcase/baidu_search_001/test_search_001'], 1605168938)
+INFO	2020-11-12 16:15:39,140	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET runtime = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s(['16.1887309551239'], ['test_searchcase_001_002'], 'v2020.1112.0003', ['testcase/baidu_search_001/test_search_001'], 1605168938)
+INFO	2020-11-12 16:15:39,178	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s([' \'assert False == True\\n +  where False = <bound method BasePage.isElementPresent of <page_object.pages.BasePage.BasePage object at 0x00000185FDEA4630>>((\\\'xpath\\\', "//*[contains(text(),\\\'MeterSphere - 开源自动化测试平台\\\')]"))\\n +    where <bound method BasePage.isElementPresent of <page_object.pages.BasePage.BasePage object at 0x00000185FDEA4630>> = <page_object.pages.BasePage.BasePage object at 0x00000185FDEA4630>.isElementPresent\')'], ['test_searchcase_001_001'], 'v2020.1112.0003', ['testcase/baidu_search_001/test_search_001'], 1605168938)
+INFO	2020-11-12 16:15:39,367	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET exceptionmessage = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s([' \'assert False == True\\n +  where False = <bound method BasePage.isElementPresent of <page_object.pages.BasePage.BasePage object at 0x00000185FDE78CC0>>((\\\'xpath\\\', "//*[contains(text(),\\\'PyCharm开发工具\\\')]"))\\n +    where <bound method BasePage.isElementPresent of <page_object.pages.BasePage.BasePage object at 0x00000185FDE78CC0>> = <page_object.pages.BasePage.BasePage object at 0x00000185FDE78CC0>.isElementPresent\')'], ['test_searchcase_001_002'], 'v2020.1112.0003', ['testcase/baidu_search_001/test_search_001'], 1605168938)
+INFO	2020-11-12 16:15:39,737	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('不通过', ['test_searchcase_001_001'], 'v2020.1112.0003', ['testcase/baidu_search_001/test_search_001'], 1605168938)
+INFO	2020-11-12 16:15:40,117	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:red', ['test_searchcase_001_001'], 'v2020.1112.0003', ['testcase/baidu_search_001/test_search_001'], 1605168938)
+INFO	2020-11-12 16:15:40,555	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_name = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('不通过', ['test_searchcase_001_002'], 'v2020.1112.0003', ['testcase/baidu_search_001/test_search_001'], 1605168938)
+INFO	2020-11-12 16:15:40,712	[DbSqlUtil.py:86]	操作成功，执行语句为UPDATE pytest_ui_result SET result_color = %s WHERE testTitlename = %s AND VERSION = %s and feature_name = %s and detailed_id =%s('style=background-color:red', ['test_searchcase_001_002'], 'v2020.1112.0003', ['testcase/baidu_search_001/test_search_001'], 1605168938)
+INFO	2020-11-12 16:15:40,903	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT COUNT(*) FROM pytest_ui_result WHERE VERSION = %s 参数值为:v2020.1112.0003
+INFO	2020-11-12 16:15:40,903	[DbSqlUtil.py:59]	查询成功，结果为:4
+INFO	2020-11-12 16:15:40,906	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT COUNT(*) FROM pytest_ui_result WHERE VERSION = %s and result = '1' 参数值为:v2020.1112.0003
+INFO	2020-11-12 16:15:40,906	[DbSqlUtil.py:59]	查询成功，结果为:2
+INFO	2020-11-12 16:15:40,915	[DbSqlUtil.py:58]	操作成功，执行语句为SELECT COUNT(*) FROM pytest_ui_result WHERE VERSION = %s and result = '0' 参数值为:v2020.1112.0003
+INFO	2020-11-12 16:15:40,915	[DbSqlUtil.py:59]	查询成功，结果为:2
+INFO	2020-11-12 16:15:40,945	[DbSqlUtil.py:73]	操作成功，执行语句为SELECT testTitle,result_name,result_color FROM pytest_ui_result WHERE version = %s 参数值为:v2020.1112.0003
+INFO	2020-11-12 16:15:40,946	[DbSqlUtil.py:74]	查询成功，结果为:(('test_searchcase_002_001', '通过', 'style=background-color:Lime'), ('test_searchcase_002_002', '通过', 'style=background-color:Lime'), ('test_searchcase_001_001', '不通过', 'style=background-color:red'), ('test_searchcase_001_002', '不通过', 'style=background-color:red'))
+INFO	2020-11-19 11:19:13,696	[BasePage.py:38]	('id', 'kw')出现,等待时间0.02s
+INFO	2020-11-19 11:19:13,697	[BasePage.py:76]	在:('id', 'kw')中输入:selenium
+INFO	2020-11-19 11:19:13,857	[BasePage.py:38]	('id', 'su')出现,等待时间0.02s
+INFO	2020-11-19 11:19:13,857	[BasePage.py:49]	点击:('id', 'su')
+INFO	2020-11-19 11:19:16,940	[BasePage.py:38]	('xpath', "//*[@id='u']//*[@name='tj_settingicon']")出现,等待时间0.02s
+INFO	2020-11-19 11:19:16,940	[BasePage.py:86]	鼠标悬停在:('xpath', "//*[@id='u']//*[@name='tj_settingicon']")之上
+INFO	2020-11-19 11:19:19,224	[BasePage.py:38]	('xpath', "//*[@id='u']//*[@name='tj_settingicon']")出现,等待时间0.01s
+INFO	2020-11-19 11:19:19,225	[BasePage.py:67]	右击:('xpath', "//*[@id='u']//*[@name='tj_settingicon']")
+INFO	2020-11-19 11:19:24,083	[BasePage.py:140]	元素('xpath', "//*[contains(text(),'MeterSphere - 开源自动化测试平台')]")存在
+ERROR	2020-11-19 11:19:26,186	[DbSqlUtil.py:28]	connectDatabase failed
+ERROR	2020-11-19 11:19:26,186	[DbSqlUtil.py:54]	select failed:SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s
+ERROR	2020-11-19 11:19:26,186	[DbSqlUtil.py:55]	param:('WEB', 'BAIDU')

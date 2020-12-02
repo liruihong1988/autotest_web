@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert False == True\n +  where False = <bound method BasePage.isElementPresent of <page_object.pages.BasePage.BasePage object at 0x00000185FDEA4630>>(('xpath', \"//*[contains(text(),'MeterSphere - 开源自动化测试平台')]\"))\n +    where <bound method BasePage.isElementPresent of <page_object.pages.BasePage.BasePage object at 0x00000185FDEA4630>> = <page_object.pages.BasePage.BasePage object at 0x00000185FDEA4630>.isElementPresent",
+      "children" : [ {
+        "name" : "test_searchcase_001_001",
+        "uid" : "a1052d8307573aa9",
+        "parentUid" : "4fc0ee52f152431577a10cd84fb9caef",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605168890203,
+          "stop" : 1605168911454,
+          "duration" : 21251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4fc0ee52f152431577a10cd84fb9caef"
+    }, {
+      "name" : "AssertionError: assert False == True\n +  where False = <bound method BasePage.isElementPresent of <page_object.pages.BasePage.BasePage object at 0x00000185FDE78CC0>>(('xpath', \"//*[contains(text(),'PyCharm开发工具')]\"))\n +    where <bound method BasePage.isElementPresent of <page_object.pages.BasePage.BasePage object at 0x00000185FDE78CC0>> = <page_object.pages.BasePage.BasePage object at 0x00000185FDE78CC0>.isElementPresent",
+      "children" : [ {
+        "name" : "test_searchcase_001_002",
+        "uid" : "484d2b0851336548",
+        "parentUid" : "2851155e4b60369cef48c522f5ee3ef7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605168919651,
+          "stop" : 1605168935839,
+          "duration" : 16188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2851155e4b60369cef48c522f5ee3ef7"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

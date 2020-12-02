@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"failed","Thu Nov 12 16:15:19 CST 2020","Thu Nov 12 16:15:35 CST 2020","16188","testcase.baidu_search_001","test_search_001","Test_Search_001","","","test_searchcase_001_002",""
+"passed","Thu Nov 12 16:15:04 CST 2020","Thu Nov 12 16:15:11 CST 2020","7378","testcase.baidu_search_002","test_search_002","Test_Search_002","","","test_searchcase_002_002",""
+"failed","Thu Nov 12 16:14:50 CST 2020","Thu Nov 12 16:15:11 CST 2020","21251","testcase.baidu_search_001","test_search_001","Test_Search_001","","","test_searchcase_001_001",""
+"passed","Thu Nov 12 16:14:50 CST 2020","Thu Nov 12 16:14:58 CST 2020","8497","testcase.baidu_search_002","test_search_002","Test_Search_002","","","test_searchcase_002_001",""

@@ -1,0 +1,57 @@
+ERROR	2020-12-01 17:59:04,379	[DbSqlUtil.py:28]	connectDatabase failed
+ERROR	2020-12-01 17:59:04,379	[DbSqlUtil.py:54]	select failed:SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s
+ERROR	2020-12-01 17:59:04,379	[DbSqlUtil.py:55]	param:('WEB', 'BAIDU')
+INFO	2020-12-01 17:59:32,966	[BasePage.py:38]	('id', 'userNameInput')出现,等待时间0.02s
+INFO	2020-12-01 17:59:32,966	[BasePage.py:76]	在:('id', 'userNameInput')中输入:0010437
+INFO	2020-12-01 17:59:33,063	[BasePage.py:38]	('id', 'passwordInput')出现,等待时间0.02s
+INFO	2020-12-01 17:59:33,063	[BasePage.py:76]	在:('id', 'passwordInput')中输入:wxj@2016
+INFO	2020-12-01 17:59:33,156	[BasePage.py:38]	('id', 'submitButton')出现,等待时间0.02s
+INFO	2020-12-01 17:59:33,156	[BasePage.py:49]	点击:('id', 'submitButton')
+ERROR	2020-12-01 17:59:33,203	[DbSqlUtil.py:28]	connectDatabase failed
+ERROR	2020-12-01 17:59:33,203	[DbSqlUtil.py:54]	select failed:SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s
+ERROR	2020-12-01 17:59:33,203	[DbSqlUtil.py:55]	param:('WEB', 'BAIDU')
+INFO	2020-12-01 18:00:28,218	[BasePage.py:38]	('id', 'userNameInput')出现,等待时间0.02s
+INFO	2020-12-01 18:00:28,218	[BasePage.py:76]	在:('id', 'userNameInput')中输入:0010437
+INFO	2020-12-01 18:00:28,315	[BasePage.py:38]	('id', 'passwordInput')出现,等待时间0.02s
+INFO	2020-12-01 18:00:28,315	[BasePage.py:76]	在:('id', 'passwordInput')中输入:wxj@2016
+INFO	2020-12-01 18:00:28,408	[BasePage.py:38]	('id', 'submitButton')出现,等待时间0.02s
+INFO	2020-12-01 18:00:28,408	[BasePage.py:49]	点击:('id', 'submitButton')
+ERROR	2020-12-01 18:00:38,465	[DbSqlUtil.py:28]	connectDatabase failed
+ERROR	2020-12-01 18:00:38,465	[DbSqlUtil.py:54]	select failed:SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s
+ERROR	2020-12-01 18:00:38,465	[DbSqlUtil.py:55]	param:('WEB', 'BAIDU')
+INFO	2020-12-01 18:02:50,823	[BasePage.py:38]	('id', 'userNameInput')出现,等待时间0.02s
+INFO	2020-12-01 18:02:50,823	[BasePage.py:76]	在:('id', 'userNameInput')中输入:0010437
+INFO	2020-12-01 18:02:50,922	[BasePage.py:38]	('id', 'passwordInput')出现,等待时间0.02s
+INFO	2020-12-01 18:02:50,923	[BasePage.py:76]	在:('id', 'passwordInput')中输入:wxj@2016
+INFO	2020-12-01 18:02:51,024	[BasePage.py:38]	('id', 'submitButton')出现,等待时间0.02s
+INFO	2020-12-01 18:02:51,024	[BasePage.py:49]	点击:('id', 'submitButton')
+ERROR	2020-12-01 18:03:01,068	[DbSqlUtil.py:28]	connectDatabase failed
+ERROR	2020-12-01 18:03:01,068	[DbSqlUtil.py:54]	select failed:SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s
+ERROR	2020-12-01 18:03:01,068	[DbSqlUtil.py:55]	param:('WEB', 'BAIDU')
+INFO	2020-12-01 18:05:04,103	[BasePage.py:38]	('id', 'userNameInput')出现,等待时间0.02s
+INFO	2020-12-01 18:05:04,103	[BasePage.py:76]	在:('id', 'userNameInput')中输入:0010437
+INFO	2020-12-01 18:05:04,201	[BasePage.py:38]	('id', 'passwordInput')出现,等待时间0.02s
+INFO	2020-12-01 18:05:04,201	[BasePage.py:76]	在:('id', 'passwordInput')中输入:wxj@2016
+INFO	2020-12-01 18:05:04,297	[BasePage.py:38]	('id', 'submitButton')出现,等待时间0.01s
+INFO	2020-12-01 18:05:04,298	[BasePage.py:49]	点击:('id', 'submitButton')
+ERROR	2020-12-01 18:05:09,349	[DbSqlUtil.py:28]	connectDatabase failed
+ERROR	2020-12-01 18:05:09,349	[DbSqlUtil.py:54]	select failed:SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s
+ERROR	2020-12-01 18:05:09,349	[DbSqlUtil.py:55]	param:('WEB', 'BAIDU')
+INFO	2020-12-01 18:15:56,739	[BasePage.py:38]	('id', 'userNameInput')出现,等待时间0.02s
+INFO	2020-12-01 18:15:56,740	[BasePage.py:76]	在:('id', 'userNameInput')中输入:0010437
+INFO	2020-12-01 18:15:56,843	[BasePage.py:38]	('id', 'passwordInput')出现,等待时间0.02s
+INFO	2020-12-01 18:15:56,843	[BasePage.py:76]	在:('id', 'passwordInput')中输入:wxj@2016
+INFO	2020-12-01 18:15:56,945	[BasePage.py:38]	('id', 'submitButton')出现,等待时间0.02s
+INFO	2020-12-01 18:15:56,945	[BasePage.py:49]	点击:('id', 'submitButton')
+ERROR	2020-12-01 18:16:02,433	[DbSqlUtil.py:28]	connectDatabase failed
+ERROR	2020-12-01 18:16:02,433	[DbSqlUtil.py:54]	select failed:SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s
+ERROR	2020-12-01 18:16:02,433	[DbSqlUtil.py:55]	param:('WEB', 'BAIDU')
+INFO	2020-12-01 18:28:41,643	[BasePage.py:38]	('id', 'userNameInput')出现,等待时间0.02s
+INFO	2020-12-01 18:28:41,643	[BasePage.py:76]	在:('id', 'userNameInput')中输入:0010437
+INFO	2020-12-01 18:28:41,748	[BasePage.py:38]	('id', 'passwordInput')出现,等待时间0.02s
+INFO	2020-12-01 18:28:41,748	[BasePage.py:76]	在:('id', 'passwordInput')中输入:wxj@2016
+INFO	2020-12-01 18:28:41,849	[BasePage.py:38]	('id', 'submitButton')出现,等待时间0.01s
+INFO	2020-12-01 18:28:41,850	[BasePage.py:49]	点击:('id', 'submitButton')
+ERROR	2020-12-01 18:28:46,957	[DbSqlUtil.py:28]	connectDatabase failed
+ERROR	2020-12-01 18:28:46,957	[DbSqlUtil.py:54]	select failed:SELECT VERSION FROM proj_verion_config WHERE  TYPE=%s AND project = %s
+ERROR	2020-12-01 18:28:46,957	[DbSqlUtil.py:55]	param:('WEB', 'BAIDU')

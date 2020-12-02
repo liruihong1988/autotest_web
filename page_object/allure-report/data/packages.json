@@ -1,0 +1,69 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "baidu_search_002.test_search_002",
+      "children" : [ {
+        "name" : "test_searchcase_002_001",
+        "uid" : "b77311f7056c6614",
+        "parentUid" : "ae36af46794b484df5b31058b2adc336",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605168890176,
+          "stop" : 1605168898673,
+          "duration" : 8497
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_searchcase_002_002",
+        "uid" : "b86edec5d5620ac3",
+        "parentUid" : "ae36af46794b484df5b31058b2adc336",
+        "status" : "passed",
+        "time" : {
+          "start" : 1605168904172,
+          "stop" : 1605168911550,
+          "duration" : 7378
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "baidu_search_002.test_search_002"
+    }, {
+      "name" : "baidu_search_001.test_search_001",
+      "children" : [ {
+        "name" : "test_searchcase_001_001",
+        "uid" : "a1052d8307573aa9",
+        "parentUid" : "59ecb88967d8e579b6657b26ab33d43c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605168890203,
+          "stop" : 1605168911454,
+          "duration" : 21251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_searchcase_001_002",
+        "uid" : "484d2b0851336548",
+        "parentUid" : "59ecb88967d8e579b6657b26ab33d43c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1605168919651,
+          "stop" : 1605168935839,
+          "duration" : 16188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "baidu_search_001.test_search_001"
+    } ],
+    "uid" : "559e15d0a5469c40d1629e36b5ae40ea"
+  } ]
+}
